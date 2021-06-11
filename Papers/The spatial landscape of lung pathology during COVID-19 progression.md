@@ -13,10 +13,28 @@
    **原理**：通过利用与生物组织中的抗原特异性结合的**抗体**的原理来选择性地识别组织切片细胞中的**抗原**蛋白。
 
    **应用**：诊断异常细胞，例如在恶性肿瘤中发现肿瘤细胞。
+   
+2. **定量限Limit of Quantification，LOQ**
+
+   样品中被测组分能被定量测定的最低浓度或最低量，此时的分析结果应能确保一定的正确度和精密度。
+
+   > The limit of quantitation (LOQ) is set to be the negative probe geomean + some number of standard deviations of the negative probes. This is a confidence threshold rather than a detection threshold. A value below LOQ does not necessarily mean that a target is not expressed, but if the value is >LOQ then we are confident that it is expressed. For CTA we recommend 2.5 as a stringent threshold and 2.0 for a slightly permissive threshold. LOQ is a threshold for high confidence detection.
+
+3.  tukey's test 方法 识别异常值（Q3）
+
+   最大估计值 ：Q1-K(Q3-Q1) 最小估计值 ：Q1+K(Q3-Q1)
+
+   其中 K=1.5 中度异常 K=3 极限异常 数据落在 在 Q1-3(Q3-Q1) / Q1+3(Q3-Q1) 以外 大概率是异常值
 
 ---
 
+- 科学问题
 
+  探究COVID-19进程中肺病例的空间图谱。通过靶向36个蛋白质的表达在单细胞精度下来研究人类急性肺损伤（包括SARS-CoV-2的感染）的细胞组成和空间结构。
+
+- 结果：
+
+  这些空间精度的单细胞揭示了感染和损伤肺的紊乱的结构，同时分布着广泛的免疫浸润。
 
 ## 方法
 

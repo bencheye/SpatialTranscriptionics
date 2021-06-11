@@ -56,4 +56,23 @@
     roiMat <- demoData@phenoData@data
 
     行为样本名（每个ROI ID名称），列为ROI相关信息
+  
+- 计算背景
 
+  ​	阴性探针表达强度（多个探针取几何平均值）
+
+- 计算表达强度-Signal strength
+
+  - 高表达的内源性基因捕获的靶细胞计数的测量方法
+
+- 信噪比（SNR）signal-background-ratio
+
+  - SNR>2 OR SNR>3
+
+- AOI QC
+
+  - Q3(一个AOI区域75%)
+
+- gene QC
+
+  ​	LOQ
